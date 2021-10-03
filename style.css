@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap");
+
+body {
+	background: linear-gradient(236.85deg, #041832 27.26%, #3468a7 96.03%);
+	font-family: "Roboto", sans-serif;
+}
+
+.container {
+	background: #ecf4ff;
+	color: #1c1c1c;
+	margin: 64px;
+	margin-bottom: 3px;
+	border-radius: 18px;
+	box-shadow: 6px 6px 6px #0e1d2f;
+	padding: 64px;
+}
+
+.tema button {
+	align-self: flex-end;
+	background: #ecf4ff;
+	font-size: 20px;
+	border: 2px solid #0e1d2f;
+	box-sizing: border-box;
+	border-radius: 100px;
+	font-weight: 400;
+	padding: 8px 16px;
+}
+
+.container2 {
+	background: linear-gradient(230.65deg, #499cfe 27.49%, #9cc8fc 83.19%);
+	box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+	border-radius: 20px;
+	margin-top: 32px;
+	padding-left: 32px;
+	padding-right: 32px;
+	padding-top: 5px;
+	padding-bottom: 32px;
+}
+.cabecalho {
+	display: flex;
+	justify-content: space-between;
+}
+.perfil {
+	display: flex;
+	/* align-items: center; */
+}
+
+.perfil-foto {
+	border-radius: 500px;
+	max-height: 160px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.titulo {
+	margin-left: 16px;
+}
+
+.titulo h1 {
+	font-weight: 700;
+	font-size: 36px;
+	text-shadow: 3px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.titulo h3 {
+	font-weight: 400;
+	font-size: 24px;
+}
+
+.projetos {
+	list-style: none;
+	/* text-align: center; */
+	display: flex;
+	flex-direction: column;
+	font-weight: 700;
+	font-size: 38px;
+	/*line-height: 40px;*/
+	text-shadow: 3px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.projetos p {
+	color: #1c1c1c;
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 20px;
+	text-decoration: none;
+}
+
+.projetos-titulo {
+	list-style-type: none;
+	font-size: 28px;
+	/*text-align: left;*/
+}
+
+.projetos-item {
+	/* .projetos ul {
+	font-size: 28px;
+} */
+}
+
+.redes h4 {
+	font-weight: 700;
+	font-size: 20px;
+	text-shadow: 3px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.redes {
+	text-align: center;
+	font-weight: 700;
+	font-size: 20px;
+	max-height: 90px;
+	text-shadow: 3px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+#inverter {
+	transform: scalex(-1);
+}
+
+.contato {
+	text-align: center;
+	margin-bottom: 64px;
+	text-shadow: 3px 2px 4px rgba(0, 0, 0, 0.25);
+	font-family: "Chakra Petch", sans-serif;
+	font-weight: 300;
+	color: #ecf4ff;
+}
+
+.dark {
+	background: linear-gradient(236.85deg, #375b86 27.26%, #6b87a9 96.03%);
+}
+
+.dark .container {
+	background: #333439;
+	color: #f6f6f6;
+}
+
+.dark .projetos {
+	color: #1c1c1c;
+}
+
+.dark .tema button {
+	background: #1c1c1c;
+	color: #ffffff;
+	border: 2px solid #f7f7f7;
+}
